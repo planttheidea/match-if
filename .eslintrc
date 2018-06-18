@@ -1,0 +1,13 @@
+{
+  "extends": "rapid7/browser",
+  "globals": {
+    "__dirname": true,
+    "module": true,
+    "require": true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "arrow-body-style": [2, "as-needed"],
+    "object-property-newline": 2
+  }
+}
